@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.p1{position: relative;
+    float: left;
+    background-color: lightblue;
+    border: 3px double brown;
+    border-radius: 15px;
+    margin: 15px;
+    width: 250px;
+}
+
+.p2{float: left;
+    background-color: lightgreen;
+    border: 3px double brown;
+    border-radius: 15px;
+     margin: 15px;
+     width: 250px;
+}
+
+.p3{
+    float: left;
+    position: relative;
+    border: 3px double brown;
+    border-radius: 15px;
+    margin: 15px;
+    width: 250px;
+    background-image:linear-gradient(to right, white,gold);
+}
+img{
+    width: 200px;
+}
+body{
+     background-image:linear-gradient(to right, orange,red,orange);
+    
+   
+}
+nav{  background-image:linear-gradient(to right, white,gold);
+    height: 50px;  
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:0px;
+    left:0px;
+     
+    padding-bottom: 10px;
+    }
+    
+
+a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.all{
+    display: flex;
+    justify-content: center;  
+    
+}
+a:hover{
+    color: green;
+}
+h1{
+    color:gold;
+    text-align: center;
+    font-size: 45px;}
+    
+
+
+h1::after {    
+    content: url("https://i.pinimg.com/originals/96/32/ca/9632caedfc7f33bc64f079fc1c93138c.png");
+    
+    margin-bottom: 10px;
+    opacity: 1;
+    block: inline-block;
+}
+
+
+nav a::before{
+
+        content: url("https://mars.algoritmika.org/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+        width: 100px;
+        height: 50px;
+        margin-bottom: 10px;    
+        opacity: 1;
+}
+
+
+
+.q{
+    color: blue;
+    background-color: lawngreen;
+    font-size: 25px;
+}
+.qq{
+    color: red;
+    background-color: lawngreen;
+    font-size: 25px;
+}
+
+.fx{
+    width: 150px;
+    position: fixed;
+    top: 230px;
+    left: 350px;
+}
+
+.ab{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 70px;
+}
+
+.ab:hover {
+    position: absolute;
+    transform: translateY(200px) 
+    translateX(150px);
+    transition: 3s ease-in;
+}
+
+.rl{
+    position: relative;
+    top:0px;
+    left: 0px;
+    width: 150px;
+}
+
+.gl{
+    position: absolute;
+    top:150px;
+    left: 0px;
+    width: 150px;
+    
+}
+
+.fx:hover{
+    opacity: 0.2;
+     transform:translateX(150px) translateY(-100px);
+    transition: 5s ease-in;
+}
